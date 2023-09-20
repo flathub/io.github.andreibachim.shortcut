@@ -30,9 +30,11 @@ modules:
       - install -D data/io.github.andreibachim.shortcut.svg /app/share/icons/hicolor/scalable/apps/io.github.andreibachim.shortcut.svg
       - install -D data/io.github.andreibachim.shortcut.desktop /app/share/applications/io.github.andreibachim.shortcut.desktop
       - install -D data/io.github.andreibachim.shortcut.metainfo.xml /app/share/metainfo/io.github.andreibachim.shortcut.appdata.xml
+      - install -D data/io.github.andreibachim.shortcut.gschema.xml /app/share/glib-2.0/schemas/io.github.andreibachim.shortcut.gschema.xml
+      - glib-compile-schemas /app/share/glib-2.0/schemas/
     sources:
       - generated-sources.json
       - type: git
         url: https://github.com/andreibachim/shortcut
-        tag: v0.2.1
-        commit: af40aaa720b99e6ea2c464eb1acb04d4cffef169
+        tag: v0.3.0
+        commit: a6dd452cdd31a69ec2e28cb6be18b6a4390a87fb
