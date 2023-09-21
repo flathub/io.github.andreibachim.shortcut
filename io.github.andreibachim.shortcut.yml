@@ -36,5 +36,5 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/andreibachim/shortcut
-        tag: v0.3.0
-        commit: a6dd452cdd31a69ec2e28cb6be18b6a4390a87fb
+        tag: v0.3.1
+        commit: b2e1f37ebe8e05644d946885c4e319e32dff4998
