@@ -1,7 +1,7 @@
 app-id: io.github.andreibachim.shortcut
 
 runtime: org.gnome.Platform
-runtime-version: '44'
+runtime-version: '45'
 sdk: org.gnome.Sdk
 sdk-extensions: 
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -36,6 +36,6 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/andreibachim/shortcut
-        tag: v0.3.1
-        commit: 96cf88c625f97812164d533f32e617ab59ff5542
+        tag: v0.4.0
+        commit: c79f731845ee6a37b6d1cb889c911c8ed21c3b31
         
