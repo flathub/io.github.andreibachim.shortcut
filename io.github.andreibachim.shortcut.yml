@@ -37,5 +37,5 @@ modules:
       - type: git
         url: https://github.com/andreibachim/shortcut
         tag: v0.4.1
-        commit: 27c0031ab26f28869f1dbf4e1099c25297084303
+        commit: 7ad115f2fb56428f6c84435bde0ded87ae98beab
         
