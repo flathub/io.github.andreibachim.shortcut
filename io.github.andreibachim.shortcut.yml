@@ -1,18 +1,18 @@
 app-id: io.github.andreibachim.shortcut
 
 runtime: org.gnome.Platform
-runtime-version: '47'
+runtime-version: '49'
 sdk: org.gnome.Sdk
-sdk-extensions: 
+sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
-  
+
 command: shortcut
 
-build-options: 
+build-options:
   append-path: '/usr/lib/sdk/rust-stable/bin'
   env:
     CARGO_HOME: /run/build/shortcut/cargo
-  
+
 finish-args:
   - '--socket=wayland'
   - '--socket=fallback-x11'
@@ -36,6 +36,5 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/andreibachim/shortcut
-        tag: v0.4.2
-        commit: 0b818763803d3f78c7fa4d8fe2db238a96ae2b92 
-        
+        tag: v0.4.3
+        commit: 64d66bd3642d197c6a7272cd00af0aeaadeac53f
